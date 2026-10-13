@@ -20,11 +20,26 @@ function element(tag, className, text) {
 
 function card(herb) {
   const item = element("li", "card", "")
+  const title = element("h3", "name", "")
+
+  if (herb.name === "Chives") {
+    const link = document.createElement("a")
+    link.href = "chives.html"
+    link.target = "_blank"
+    link.rel = "noopener noreferrer"
+    link.textContent = herb.name
+    title.append(link)
+  } else {
+    title.textContent = herb.name
+  }
+
   item.append(
-    element("h3", "name", herb.name),
+    title,
     element("p", "latin", herb.latin),
     element("p", "use", herb.use),
-    element("p", "life", herb.life))
+    element("p", "life", herb.life)
+  )
+
   return item
 }
 
