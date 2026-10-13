@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn about chives: how they grow, how to harvest them, and how to use them in the kitchen.">
+  <title>Chives | The Little Herb Garden</title>
+  <link rel="stylesheet" href="chives.css">
+  <script src="chives.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html#herbs" aria-label="Back to The Little Herb Garden">
+        <span class="brand-mark" aria-hidden="true">✿</span>
+        <span>The Little Herb Garden</span>
+      </a>
+      <nav aria-label="Chives page navigation">
+        <a href="#about">About</a>
+        <a href="#growing">Growing</a>
+        <a href="#using">Using</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Day 2 · Content & Representation</p>
+        <h1 id="page-title">Chives</h1>
+        <p class="latin"><em>Allium schoenoprasum</em></p>
+        <p>Fresh, grassy, onion-flavoured leaves for everyday cooking — and purple flowers that pollinators love.</p>
+        <a class="primary-link" href="#growing">Explore how chives grow <span aria-hidden="true">→</span></a>
+      </div>
+      <svg class="hero-art" viewBox="0 0 460 320" role="img" aria-labelledby="chives-art-title chives-art-desc" xmlns="http://www.w3.org/2000/svg">
+        <title id="chives-art-title">Chives growing in a terracotta pot</title>
+        <desc id="chives-art-desc">A group of slender green leaves and round purple chive flowers above a terracotta pot.</desc>
+        <rect x="0" y="0" width="460" height="320" rx="24" fill="#e5f0df"/>
+        <circle cx="377" cy="67" r="35" fill="#f6ce6c"/>
+        <ellipse cx="223" cy="267" rx="154" ry="22" fill="#cbd9c5"/>
+        <g fill="none" stroke="#42845a" stroke-width="8" stroke-linecap="round">
+          <path d="M206 238 Q150 155 145 60"/><path d="M220 240 Q215 158 208 43"/>
+          <path d="M238 240 Q274 149 271 54"/><path d="M255 239 Q330 152 332 96"/>
+          <path d="M190 241 Q171 177 175 111"/><path d="M271 241 Q297 197 301 141"/>
+          <path d="M232 243 Q235 176 237 112"/>
+        </g>
+        <g fill="#9f76c4">
+          <circle cx="145" cy="62" r="15"/><circle cx="207" cy="44" r="17"/>
+          <circle cx="272" cy="57" r="16"/><circle cx="332" cy="97" r="14"/>
+          <circle cx="175" cy="112" r="12"/><circle cx="237" cy="114" r="13"/>
+        </g>
+        <path d="M126 219 H323 L305 282 H145 Z" fill="#bd774d"/>
+        <path d="M118 210 Q118 200 128 200 H321 Q331 200 331 210 V225 H118 Z" fill="#d78b58"/>
+        <path d="M145 283 H305" stroke="#a96442" stroke-width="7" stroke-linecap="round"/>
+      </svg>
+    </section>
+
+    <section id="about" class="content-section" aria-labelledby="about-title">
+      <h2 id="about-title">What are chives?</h2>
+      <p>Chives are perennial herbs in the onion family. Their thin, hollow green leaves add a gentle onion flavour to salads, soups, eggs, and potatoes.</p>
+      <aside class="note" aria-label="Botanical information">
+        <h3>Botanical facts</h3>
+        <dl class="facts">
+          <div><dt>Scientific name</dt><dd>Allium schoenoprasum</dd></div>
+          <div><dt>Plant type</dt><dd>Perennial</dd></div>
+          <div><dt>Edible parts</dt><dd>Leaves and flowers</dd></div>
+        </dl>
+      </aside>
+    </section>
+
+    <section id="growing" class="content-section" aria-labelledby="growing-title">
+      <h2 id="growing-title">Growing chives</h2>
+      <div class="info-grid">
+        <article class="info-card">
+          <h3>☀ Light</h3>
+          <p>Choose a sunny position. Chives can also grow in partial shade.</p>
+        </article>
+        <article class="info-card">
+          <h3>💧 Water</h3>
+          <p>Keep soil evenly moist without letting the pot stay waterlogged.</p>
+        </article>
+        <article class="info-card">
+          <h3>✂ Harvest</h3>
+          <p>Snip leaves regularly, leaving a short base so they can regrow.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="using" class="content-section" aria-labelledby="using-title">
+      <h2 id="using-title">Using chives in the kitchen</h2>
+      <p>Add freshly chopped chives near the end of cooking to retain their delicate taste. They work especially well with potatoes, eggs, soups and dips.</p>
+      <button id="tip-button" type="button" aria-controls="tip-text" aria-expanded="false">Show a kitchen tip</button>
+      <p id="tip-text" class="tip" hidden>Try chives with plain yogurt, a little lemon juice and black pepper for a quick herb dip.</p>
+    </section>
+
+    <section class="content-section" aria-labelledby="json-title">
+      <h2 id="json-title">JSON: one herb, structured as data</h2>
+      <p>Day 1 already has a JSON file for eight herbs. This page uses JavaScript to read that file and find the Chives entry.</p>
+      <div class="data-card">
+        <p id="data-status" role="status" aria-live="polite">Loading Chives information from data/herbs.json…</p>
+        <dl id="json-details" class="facts" hidden></dl>
+        <p><a href="data/herbs.json" target="_blank" rel="noopener noreferrer">View the original JSON data <span aria-hidden="true">↗</span></a></p>
+      </div>
+      <noscript><p>The page content works without JavaScript, but the live JSON details and kitchen-tip button require JavaScript.</p></noscript>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Day 2 · Contemporary Frontend Development</p>
+    <a href="index.html#herbs">← Back to the eight herbs</a>
+  </footer>
+</body>
+</html>
