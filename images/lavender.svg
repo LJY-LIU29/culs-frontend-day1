@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="300">
+  <defs>
+    <linearGradient id="lavGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6a4fa8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9b7ce8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lavLeafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a6b3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6a8b5a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lavStemGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3d5a2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a4a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Main woody stems -->
+  <path d="M100,180 Q100,140 95,100 Q90,60 85,30" fill="none" stroke="url(#lavStemGrad)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M85,170 Q80,130 75,90 Q70,50 65,20" fill="none" stroke="url(#lavStemGrad)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M115,170 Q120,130 125,90 Q130,50 135,20" fill="none" stroke="url(#lavStemGrad)" stroke-width="4" stroke-linecap="round"/>
+  <!-- Grey-green leaves (narrow, along stems) -->
+  <g fill="url(#lavLeafGrad)">
+    <ellipse cx="80" cy="160" rx="3" ry="12" transform="rotate(-30 80 160)"/>
+    <ellipse cx="120" cy="160" rx="3" ry="12" transform="rotate(30 120 160)"/>
+    <ellipse cx="75" cy="135" rx="3" ry="10" transform="rotate(-25 75 135)"/>
+    <ellipse cx="125" cy="135" rx="3" ry="10" transform="rotate(25 125 135)"/>
+    <ellipse cx="70" cy="110" rx="3" ry="10" transform="rotate(-20 70 110)"/>
+    <ellipse cx="130" cy="110" rx="3" ry="10" transform="rotate(20 130 110)"/>
+    <ellipse cx="82" cy="105" rx="3" ry="8" transform="rotate(-35 82 105)"/>
+    <ellipse cx="118" cy="105" rx="3" ry="8" transform="rotate(35 118 105)"/>
+    <ellipse cx="72" cy="80" rx="3" ry="8" transform="rotate(-25 72 80)"/>
+    <ellipse cx="128" cy="80" rx="3" ry="8" transform="rotate(25 128 80)"/>
+    <ellipse cx="85" cy="75" rx="3" ry="6" transform="rotate(-30 85 75)"/>
+    <ellipse cx="115" cy="75" rx="3" ry="6" transform="rotate(30 115 75)"/>
+    <ellipse cx="68" cy="55" rx="3" ry="6" transform="rotate(-20 68 55)"/>
+    <ellipse cx="132" cy="55" rx="3" ry="6" transform="rotate(20 132 55)"/>
+    <ellipse cx="82" cy="50" rx="3" ry="5" transform="rotate(-35 82 50)"/>
+    <ellipse cx="118" cy="50" rx="3" ry="5" transform="rotate(35 118 50)"/>
+    <ellipse cx="70" cy="30" rx="3" ry="5" transform="rotate(-25 70 30)"/>
+    <ellipse cx="130" cy="30" rx="3" ry="5" transform="rotate(25 130 30)"/>
+    <ellipse cx="85" cy="25" rx="3" ry="5" transform="rotate(-30 85 25)"/>
+    <ellipse cx="115" cy="25" rx="3" ry="5" transform="rotate(30 115 25)"/>
+  </g>
+  <!-- Lavender flower spikes -->
+  <g>
+    <!-- Main spike -->
+    <ellipse cx="90" cy="40" rx="8" ry="35" fill="url(#lavGrad)" transform="rotate(-5 90 40)"/>
+    <ellipse cx="110" cy="38" rx="8" ry="35" fill="url(#lavGrad)" transform="rotate(5 110 38)"/>
+    <!-- Side spikes -->
+    <ellipse cx="70" cy="65" rx="6" ry="25" fill="url(#lavGrad)" transform="rotate(-10 70 65)"/>
+    <ellipse cx="130" cy="65" rx="6" ry="25" fill="url(#lavGrad)" transform="rotate(10 130 65)"/>
+    <ellipse cx="65" cy="95" rx="5" ry="20" fill="url(#lavGrad)" transform="rotate(-15 65 95)"/>
+    <ellipse cx="135" cy="95" rx="5" ry="20" fill="url(#lavGrad)" transform="rotate(15 135 95)"/>
+    <!-- Individual flower buds -->
+    <g fill="#8a6fc8">
+      <circle cx="90" cy="20" r="3"/>
+      <circle cx="85" cy="28" r="3"/>
+      <circle cx="95" cy="28" r="3"/>
+      <circle cx="88" cy="36" r="3"/>
+      <circle cx="92" cy="36" r="3"/>
+      <circle cx="86" cy="44" r="3"/>
+      <circle cx="94" cy="44" r="3"/>
+      <circle cx="87" cy="52" r="3"/>
+      <circle cx="93" cy="52" r="3"/>
+      <circle cx="89" cy="60" r="3"/>
+      <circle cx="91" cy="60" r="3"/>
+      <circle cx="110" cy="18" r="3"/>
+      <circle cx="105" cy="26" r="3"/>
+      <circle cx="115" cy="26" r="3"/>
+      <circle cx="108" cy="34" r="3"/>
+      <circle cx="112" cy="34" r="3"/>
+      <circle cx="106" cy="42" r="3"/>
+      <circle cx="114" cy="42" r="3"/>
+      <circle cx="107" cy="50" r="3"/>
+      <circle cx="113" cy="50" r="3"/>
+      <circle cx="109" cy="58" r="3"/>
+      <circle cx="111" cy="58" r="3"/>
+    </g>
+  </g>
+</svg>

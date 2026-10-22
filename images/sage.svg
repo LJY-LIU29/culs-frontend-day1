@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="300">
+  <defs>
+    <linearGradient id="sageGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b8e5a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8fc87a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sageStemGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a6b3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3a5a2a;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sageTexture" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#8fc87a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5a7a4a;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <!-- Woody base stems -->
+  <path d="M100,180 Q100,150 95,120 Q90,90 85,60" fill="none" stroke="url(#sageStemGrad)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M90,170 Q80,140 70,110 Q60,80 55,50" fill="none" stroke="url(#sageStemGrad)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M110,170 Q120,140 130,110 Q140,80 145,50" fill="none" stroke="url(#sageStemGrad)" stroke-width="5" stroke-linecap="round"/>
+  <!-- Large, textured, oval leaves with soft fuzzy appearance -->
+  <g fill="url(#sageTexture)">
+    <!-- Main stem leaves -->
+    <ellipse cx="75" cy="155" rx="25" ry="14" fill="url(#sageGrad)" transform="rotate(-25 75 155)"/>
+    <ellipse cx="125" cy="155" rx="25" ry="14" fill="url(#sageGrad)" transform="rotate(25 125 155)"/>
+    <ellipse cx="70" cy="125" rx="28" ry="16" fill="url(#sageGrad)" transform="rotate(-20 70 125)"/>
+    <ellipse cx="130" cy="125" rx="28" ry="16" fill="url(#sageGrad)" transform="rotate(20 130 125)"/>
+    <ellipse cx="68" cy="95" rx="26" ry="15" fill="url(#sageGrad)" transform="rotate(-15 68 95)"/>
+    <ellipse cx="132" cy="95" rx="26" ry="15" fill="url(#sageGrad)" transform="rotate(15 132 95)"/>
+    <ellipse cx="72" cy="65" rx="20" ry="12" fill="url(#sageGrad)" transform="rotate(-10 72 65)"/>
+    <ellipse cx="128" cy="65" rx="20" ry="12" fill="url(#sageGrad)" transform="rotate(10 128 65)"/>
+    <ellipse cx="85" cy="45" rx="16" ry="10" fill="url(#sageGrad)" transform="rotate(-5 85 45)"/>
+    <ellipse cx="115" cy="45" rx="16" ry="10" fill="url(#sageGrad)" transform="rotate(5 115 45)"/>
+    <!-- Left branch leaves -->
+    <ellipse cx="55" cy="135" rx="20" ry="11" fill="url(#sageGrad)" transform="rotate(-30 55 135)"/>
+    <ellipse cx="50" cy="105" rx="18" ry="10" fill="url(#sageGrad)" transform="rotate(-25 50 105)"/>
+    <ellipse cx="48" cy="75" rx="15" ry="8" fill="url(#sageGrad)" transform="rotate(-20 48 75)"/>
+    <!-- Right branch leaves -->
+    <ellipse cx="145" cy="135" rx="20" ry="11" fill="url(#sageGrad)" transform="rotate(30 145 135)"/>
+    <ellipse cx="150" cy="105" rx="18" ry="10" fill="url(#sageGrad)" transform="rotate(25 150 105)"/>
+    <ellipse cx="152" cy="75" rx="15" ry="8" fill="url(#sageGrad)" transform="rotate(20 152 75)"/>
+  </g>
+  <!-- Leaf veins (lighter lines for texture) -->
+  <g stroke="#7ab86a" stroke-width="1" fill="none">
+    <path d="M75,155 L85,142" transform="rotate(-25 75 155)"/>
+    <path d="M125,155 L115,142" transform="rotate(25 125 155)"/>
+    <path d="M70,125 L82,112" transform="rotate(-20 70 125)"/>
+    <path d="M130,125 L118,112" transform="rotate(20 130 125)"/>
+    <path d="M68,95 L80,82" transform="rotate(-15 68 95)"/>
+    <path d="M132,95 L120,82" transform="rotate(15 132 95)"/>
+    <path d="M72,65 L82,55" transform="rotate(-10 72 65)"/>
+    <path d="M128,65 L118,55" transform="rotate(10 128 65)"/>
+  </g>
+  <!-- Small purple flowers at top -->
+  <g fill="#9a7bd8">
+    <circle cx="85" cy="45" r="3"/>
+    <circle cx="115" cy="45" r="3"/>
+    <circle cx="80" cy="60" r="3"/>
+    <circle cx="120" cy="60" r="3"/>
+    <circle cx="88" cy="30" r="3"/>
+    <circle cx="112" cy="30" r="3"/>
+  </g>
+</svg>

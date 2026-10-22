@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="300">
+  <defs>
+    <linearGradient id="mintGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3a8f4a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5fc96a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mintStemGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d7d3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a5c2a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Main stems (mint spreads) -->
+  <path d="M100,180 Q100,130 90,90 Q85,70 75,55" fill="none" stroke="url(#mintStemGrad)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M100,180 Q110,130 120,90 Q125,70 135,55" fill="none" stroke="url(#mintStemGrad)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M100,180 Q105,120 100,70 Q95,50 90,35" fill="none" stroke="url(#mintStemGrad)" stroke-width="5" stroke-linecap="round"/>
+  <!-- Mint leaves - serrated edges -->
+  <g fill="url(#mintGrad)">
+    <!-- Left stem leaves -->
+    <path d="M75,55 Q65,45 50,55 Q55,65 65,60 Q75,55" />
+    <path d="M80,75 Q68,65 52,80 Q60,90 72,82 Q80,75" />
+    <path d="M85,95 Q72,85 55,105 Q65,115 78,110 Q85,95" />
+    <path d="M90,115 Q75,105 58,130 Q70,140 85,132 Q90,115" />
+    <path d="M92,135 Q78,125 62,155 Q75,165 90,155 Q92,135" />
+    <!-- Center stem leaves -->
+    <path d="M100,70 Q110,60 125,70 Q115,80 105,75 Q100,70" />
+    <path d="M100,95 Q112,85 130,100 Q120,112 108,108 Q100,95" />
+    <path d="M98,120 Q110,110 130,130 Q118,142 105,138 Q98,120" />
+    <path d="M98,145 Q110,135 125,155 Q115,168 102,162 Q98,145" />
+    <!-- Right stem leaves -->
+    <path d="M135,55 Q145,45 160,55 Q155,65 145,60 Q135,55" />
+    <path d="M130,75 Q142,65 158,80 Q150,90 138,82 Q130,75" />
+    <path d="M125,95 Q138,85 155,105 Q145,115 132,110 Q125,95" />
+    <path d="M120,115 Q135,105 152,130 Q140,142 125,132 Q120,115" />
+    <path d="M118,135 Q132,125 148,155 Q135,165 120,155 Q118,135" />
+  </g>
+</svg>

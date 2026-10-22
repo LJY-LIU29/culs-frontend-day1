@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="300">
+  <defs>
+    <linearGradient id="chamStemGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a6b3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3a5a2a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="chamLeafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3d7a3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5db85a;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="petalGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f0f0;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="centerGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6c200;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <!-- Stems -->
+  <path d="M100,180 Q100,140 95,100 Q90,60 85,30" fill="none" stroke="url(#chamStemGrad)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M80,170 Q75,130 70,90 Q65,50 60,20" fill="none" stroke="url(#chamStemGrad)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M120,170 Q125,130 130,90 Q135,50 140,20" fill="none" stroke="url(#chamStemGrad)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M95,150 Q85,110 75,70" fill="none" stroke="url(#chamStemGrad)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M105,150 Q115,110 125,70" fill="none" stroke="url(#chamStemGrad)" stroke-width="2" stroke-linecap="round"/>
+  <!-- Feathery leaves -->
+  <g fill="url(#chamLeafGrad)">
+    <!-- Main stem leaves -->
+    <path d="M85,160 Q75,155 70,160 Q75,165 85,160" />
+    <path d="M115,160 Q125,155 130,160 Q125,165 115,160" />
+    <path d="M82,135 Q72,130 67,135 Q72,140 82,135" />
+    <path d="M118,135 Q128,130 133,135 Q128,140 118,135" />
+    <path d="M85,110 Q75,105 70,110 Q75,115 85,110" />
+    <path d="M115,110 Q125,105 130,110 Q125,115 115,110" />
+    <path d="M88,85 Q78,80 73,85 Q78,90 88,85" />
+    <path d="M112,85 Q122,80 127,85 Q122,90 112,85" />
+    <path d="M90,60 Q80,55 75,60 Q80,65 90,60" />
+    <path d="M110,60 Q120,55 125,60 Q120,65 110,60" />
+    <path d="M92,40 Q82,35 77,40 Q82,45 92,40" />
+    <path d="M108,40 Q118,35 123,40 Q118,45 108,40" />
+    <!-- Side stem leaves -->
+    <path d="M65,100 Q58,95 53,100 Q58,105 65,100" />
+    <path d="M135,100 Q142,95 147,100 Q142,105 135,100" />
+    <path d="M62,70 Q55,65 50,70 Q55,75 62,70" />
+    <path d="M138,70 Q145,65 150,70 Q145,75 138,70" />
+    <path d="M58,45 Q51,40 46,45 Q51,50 58,45" />
+    <path d="M142,45 Q149,40 154,45 Q149,50 142,45" />
+  </g>
+  <!-- Daisy-like flowers (white petals, yellow center) -->
+  <g>
+    <!-- Flower 1 - main stem top -->
+    <g transform="translate(90,25)">
+      <ellipse cx="0" cy="-12" rx="5" ry="12" fill="url(#petalGrad)"/>
+      <ellipse cx="0" cy="12" rx="5" ry="12" fill="url(#petalGrad)" transform="rotate(180)"/>
+      <ellipse cx="-12" cy="0" rx="12" ry="5" fill="url(#petalGrad)" transform="rotate(-90)"/>
+      <ellipse cx="12" cy="0" rx="12" ry="5" fill="url(#petalGrad)" transform="rotate(90)"/>
+      <ellipse cx="-8.5" cy="-8.5" rx="12" ry="5" fill="url(#petalGrad)" transform="rotate(-45)"/>
+      <ellipse cx="8.5" cy="-8.5" rx="12" ry="5" fill="url(#petalGrad)" transform="rotate(45)"/>
+      <ellipse cx="-8.5" cy="8.5" rx="12" ry="5" fill="url(#petalGrad)" transform="rotate(-135)"/>
+      <ellipse cx="8.5" cy="8.5" rx="12" ry="5" fill="url(#petalGrad)" transform="rotate(135)"/>
+      <circle cx="0" cy="0" r="7" fill="url(#centerGrad)"/>
+      <circle cx="0" cy="0" r="4" fill="#f0c000"/>
+    </g>
+    <!-- Flower 2 - left stem -->
+    <g transform="translate(65,20)">
+      <ellipse cx="0" cy="-10" rx="4" ry="10" fill="url(#petalGrad)"/>
+      <ellipse cx="0" cy="10" rx="4" ry="10" fill="url(#petalGrad)" transform="rotate(180)"/>
+      <ellipse cx="-10" cy="0" rx="10" ry="4" fill="url(#petalGrad)" transform="rotate(-90)"/>
+      <ellipse cx="10" cy="0" rx="10" ry="4" fill="url(#petalGrad)" transform="rotate(90)"/>
+      <ellipse cx="-7" cy="-7" rx="10" ry="4" fill="url(#petalGrad)" transform="rotate(-45)"/>
+      <ellipse cx="7" cy="-7" rx="10" ry="4" fill="url(#petalGrad)" transform="rotate(45)"/>
+      <ellipse cx="-7" cy="7" rx="10" ry="4" fill="url(#petalGrad)" transform="rotate(-135)"/>
+      <ellipse cx="7" cy="7" rx="10" ry="4" fill="url(#petalGrad)" transform="rotate(135)"/>
+      <circle cx="0" cy="0" r="6" fill="url(#centerGrad)"/>
+      <circle cx="0" cy="0" r="3" fill="#f0c000"/>
+    </g>
+    <!-- Flower 3 - right stem -->
+    <g transform="translate(135,20)">
+      <ellipse cx="0" cy="-10" rx="4" ry="10" fill="url(#petalGrad)"/>
+      <ellipse cx="0" cy="10" rx="4" ry="10" fill="url(#petalGrad)" transform="rotate(180)"/>
+      <ellipse cx="-10" cy="0" rx="10" ry="4" fill="url(#petalGrad)" transform="rotate(-90)"/>
+      <ellipse cx="10" cy="0" rx="10" ry="4" fill="url(#petalGrad)" transform="rotate(90)"/>
+      <ellipse cx="-7" cy="-7" rx="10" ry="4" fill="url(#petalGrad)" transform="rotate(-45)"/>
+      <ellipse cx="7" cy="-7" rx="10" ry="4" fill="url(#petalGrad)" transform="rotate(45)"/>
+      <ellipse cx="-7" cy="7" rx="10" ry="4" fill="url(#petalGrad)" transform="rotate(-135)"/>
+      <ellipse cx="7" cy="7" rx="10" ry="4" fill="url(#petalGrad)" transform="rotate(135)"/>
+      <circle cx="0" cy="0" r="6" fill="url(#centerGrad)"/>
+      <circle cx="0" cy="0" r="3" fill="#f0c000"/>
+    </g>
+    <!-- Flower 4 - left branch -->
+    <g transform="translate(70,55)">
+      <ellipse cx="0" cy="-8" rx="3" ry="8" fill="url(#petalGrad)"/>
+      <ellipse cx="0" cy="8" rx="3" ry="8" fill="url(#petalGrad)" transform="rotate(180)"/>
+      <ellipse cx="-8" cy="0" rx="8" ry="3" fill="url(#petalGrad)" transform="rotate(-90)"/>
+      <ellipse cx="8" cy="0" rx="8" ry="3" fill="url(#petalGrad)" transform="rotate(90)"/>
+      <circle cx="0" cy="0" r="5" fill="url(#centerGrad)"/>
+      <circle cx="0" cy="0" r="2.5" fill="#f0c000"/>
+    </g>
+    <!-- Flower 5 - right branch -->
+    <g transform="translate(130,55)">
+      <ellipse cx="0" cy="-8" rx="3" ry="8" fill="url(#petalGrad)"/>
+      <ellipse cx="0" cy="8" rx="3" ry="8" fill="url(#petalGrad)" transform="rotate(180)"/>
+      <ellipse cx="-8" cy="0" rx="8" ry="3" fill="url(#petalGrad)" transform="rotate(-90)"/>
+      <ellipse cx="8" cy="0" rx="8" ry="3" fill="url(#petalGrad)" transform="rotate(90)"/>
+      <circle cx="0" cy="0" r="5" fill="url(#centerGrad)"/>
+      <circle cx="0" cy="0" r="2.5" fill="#f0c000"/>
+    </g>
+  </g>
+</svg>

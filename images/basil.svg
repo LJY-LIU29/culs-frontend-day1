@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="300">
+  <defs>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2f6b3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a9c5a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="stemGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2f6b3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a4d2a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Main stem -->
+  <path d="M100,180 Q100,120 100,60 Q110,40 120,30" fill="none" stroke="url(#stemGrad)" stroke-width="6" stroke-linecap="round"/>
+  <!-- Leaves - left side -->
+  <ellipse cx="70" cy="140" rx="25" ry="8" fill="url(#leafGrad)" transform="rotate(-30 70 140)"/>
+  <ellipse cx="60" cy="110" rx="30" ry="10" fill="url(#leafGrad)" transform="rotate(-25 60 110)"/>
+  <ellipse cx="55" cy="80" rx="28" ry="9" fill="url(#leafGrad)" transform="rotate(-20 55 80)"/>
+  <ellipse cx="58" cy="50" rx="20" ry="7" fill="url(#leafGrad)" transform="rotate(-15 58 50)"/>
+  <!-- Leaves - right side -->
+  <ellipse cx="130" cy="135" rx="25" ry="8" fill="url(#leafGrad)" transform="rotate(30 130 135)"/>
+  <ellipse cx="140" cy="105" rx="30" ry="10" fill="url(#leafGrad)" transform="rotate(25 140 105)"/>
+  <ellipse cx="145" cy="75" rx="28" ry="9" fill="url(#leafGrad)" transform="rotate(20 145 75)"/>
+  <ellipse cx="142" cy="45" rx="20" ry="7" fill="url(#leafGrad)" transform="rotate(15 142 45)"/>
+  <!-- Top leaves -->
+  <ellipse cx="90" cy="40" rx="18" ry="6" fill="url(#leafGrad)" transform="rotate(-35 90 40)"/>
+  <ellipse cx="110" cy="38" rx="18" ry="6" fill="url(#leafGrad)" transform="rotate(35 110 38)"/>
+  <!-- Small flowers at top -->
+  <circle cx="95" cy="30" r="3" fill="white" stroke="#ccc" stroke-width="0.5"/>
+  <circle cx="105" cy="28" r="3" fill="white" stroke="#ccc" stroke-width="0.5"/>
+</svg>

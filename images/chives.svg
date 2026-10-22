@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="300">
+  <defs>
+    <linearGradient id="chiveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2f6b3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a9c5a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="chiveStemGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a5c2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d3d1a;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="chiveFlowerGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#d8a8e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b888c8;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <!-- Clump of hollow tubular leaves -->
+  <g fill="url(#chiveGrad)" stroke="url(#chiveGrad)" stroke-width="1.5">
+    <!-- Left cluster -->
+    <path d="M70,180 Q65,140 60,100 Q58,70 55,40" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M65,180 Q60,135 55,95 Q52,60 50,30" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M75,180 Q70,135 68,95 Q65,60 62,35" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M60,180 Q55,140 50,105 Q48,75 45,45" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M80,180 Q75,140 73,100 Q70,65 68,35" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Center cluster -->
+    <path d="M100,180 Q100,140 100,100 Q100,70 100,40" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M95,180 Q95,135 95,95 Q95,60 95,30" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M105,180 Q105,135 105,95 Q105,60 105,30" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M90,180 Q90,135 90,95 Q90,60 90,35" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M110,180 Q110,135 110,95 Q110,60 110,35" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <!-- Right cluster -->
+    <path d="M130,180 Q135,140 140,100 Q142,70 145,40" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M125,180 Q130,135 135,95 Q138,60 140,30" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M135,180 Q140,135 142,95 Q145,60 148,35" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M120,180 Q125,140 130,105 Q132,75 135,45" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M140,180 Q145,140 147,100 Q150,65 152,35" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Purple pom-pom flowers at top of some stems -->
+  <g fill="url(#chiveFlowerGrad)">
+    <!-- Main flower -->
+    <circle cx="100" cy="35" r="14"/>
+    <circle cx="100" cy="35" r="10" fill="#c898d8"/>
+    <!-- Small florets -->
+    <circle cx="88" cy="28" r="3"/>
+    <circle cx="112" cy="28" r="3"/>
+    <circle cx="92" cy="48" r="3"/>
+    <circle cx="108" cy="48" r="3"/>
+    <circle cx="85" cy="40" r="2.5"/>
+    <circle cx="115" cy="40" r="2.5"/>
+    <circle cx="95" cy="22" r="2.5"/>
+    <circle cx="105" cy="22" r="2.5"/>
+    <circle cx="95" cy="52" r="2.5"/>
+    <circle cx="105" cy="52" r="2.5"/>
+    <!-- Left flower -->
+    <circle cx="55" cy="38" r="12" fill="url(#chiveFlowerGrad)"/>
+    <circle cx="55" cy="38" r="8" fill="#c898d8"/>
+    <circle cx="48" cy="32" r="2.5"/>
+    <circle cx="62" cy="32" r="2.5"/>
+    <circle cx="50" cy="46" r="2.5"/>
+    <circle cx="60" cy="46" r="2.5"/>
+    <circle cx="55" cy="25" r="2"/>
+    <circle cx="55" cy="52" r="2"/>
+    <!-- Right flower -->
+    <circle cx="145" cy="38" r="12" fill="url(#chiveFlowerGrad)"/>
+    <circle cx="145" cy="38" r="8" fill="#c898d8"/>
+    <circle cx="138" cy="32" r="2.5"/>
+    <circle cx="152" cy="32" r="2.5"/>
+    <circle cx="140" cy="46" r="2.5"/>
+    <circle cx="150" cy="46" r="2.5"/>
+    <circle cx="145" cy="25" r="2"/>
+    <circle cx="145" cy="52" r="2"/>
+    <!-- Back flowers -->
+    <circle cx="80" cy="55" r="10" fill="url(#chiveFlowerGrad)" opacity="0.6"/>
+    <circle cx="120" cy="55" r="10" fill="url(#chiveFlowerGrad)" opacity="0.6"/>
+    <circle cx="100" cy="70" r="8" fill="url(#chiveFlowerGrad)" opacity="0.5"/>
+  </g>
+</svg>
