@@ -193,8 +193,20 @@ function showDetail(name, nodes, moveFocus) {
 }
 
 function herbDetails(herb) {
-  return [
-    element("h2", "name", herb.name),
+  const nodes = [
+    element("h2", "name", herb.name)
+  ]
+
+  // Add herb image if available
+  if (herb.image) {
+    const img = document.createElement("img")
+    img.src = herb.image
+    img.alt = herb.name
+    img.className = "herb-image"
+    nodes.push(img)
+  }
+
+  nodes.push(
     element("p", "latin", herb.latin),
     element("p", "use", herb.use),
     element("p", "life", herb.life),
@@ -203,7 +215,9 @@ function herbDetails(herb) {
     element("p", "growing", herb.growing),
     element("h3", "", "Kitchen tip"),
     element("p", "tip", herb.tip)
-  ]
+  )
+
+  return nodes
 }
 
 // Decides what to show for the current address.
