@@ -36,7 +36,17 @@
       <h2>What grows here</h2>
       <div class="search" role="search">
         <label for="herb-search">Search herbs</label>
-        <input type="search" id="herb-search" autocomplete="off">
+        <input type="search" id="herb-search" autocomplete="off" list="herb-suggestions">
+        <datalist id="herb-suggestions">
+          <option value="Basil">
+          <option value="Spearmint">
+          <option value="Rosemary">
+          <option value="Thyme">
+          <option value="Lavender">
+          <option value="Sage">
+          <option value="Chamomile">
+          <option value="Chives">
+        </datalist>
       </div>
       <p class="count" aria-live="polite">Loading the herbs…</p>
       <ul id="herbs-list" class="cards"></ul>
